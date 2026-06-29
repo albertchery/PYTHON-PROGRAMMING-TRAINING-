@@ -1,0 +1,6 @@
+password=input("enter the password")
+#print(password)
+paassword=password.replace('A','a')
+password=password.replace('@','#')
+password=password.replace('1','2')
+print("password after encryption:",password)
